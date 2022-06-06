@@ -5,18 +5,24 @@ import Corpopadrao from '../Padroes/Corpo01'
 import '../Navbar/style.css';
 
 
-function Cards() {
+function Cards({nome, descricao, links, back, horario,sala}) {
 
     return (      
             <div className='card'>
                 <div className='topCard'>
-                    <h2 className='title'>Grupo do Whatsapp</h2>
+                    <h2 className='title'>{nome}</h2>
                 </div>
                 <div className='mediaCard'></div>
                 <div className='bottomCard'>
-                    <span className='bottonText'>Aqui é um texto de resumo da página ou do documento que o card trata.</span>
+                    <span className='bottomText'><p>{descricao}</p></span>
+                    <br></br>
+                    <br></br>
+                    
+                    <span className='bottom'><b>Horário: </b>{horario}</span>
+                    <br></br>
+                    <span className='bottom'><b>Sala: </b> {sala}</span>
                     <div className='actionsCard'>
-                        <a className='actions' href='https://www.google.com.br/'>Entrar no grupo!</a>
+                        <a className='actions' href={links}><p className='entrar'>Clique aqui para entrar no grupo!</p></a>
                     </div>
                 </div>
             </div>

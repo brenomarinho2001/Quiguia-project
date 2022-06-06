@@ -12,8 +12,8 @@
     background: #fff;
     box-shadow: 0px 2px 18px rgba(25, 42, 61, 0.26);
     border-radius: 20px;
-    width: 300px; 
-    height: 500px; 
+    width: 360px; 
+    height: 560px; 
     margin: 50px;
 
 }
@@ -25,12 +25,16 @@
 }
 
 .topCard{
-    padding: 20px;
-    padding-top: 0px;
+    padding: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .bottomCard{
-    padding: 30px;
+    padding: 15px;
 }
 
 .actionsCard{
@@ -41,17 +45,42 @@
 }
 
 .actions{
-    color: purple;
+    color: black;
     padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    
+
+}
+
+.actions:hover{
+    text-decoration: underline;
+}
+
+
+.entrar{
+    font-weight: bold;
+    text-decoration: none;
+    
+
 }
 
 .title{
     padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
 }
 
 .grupos{
     display: flex;
     justify-content: center;
  
+}
+
+.bottomText{
+    text-align: justify;
 }
 
