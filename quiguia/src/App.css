@@ -30,14 +30,14 @@
 
 
 
-.dropdown-list>li{
+.item-lista{
   margin: 15px;
   padding: 10px;
   
   border: 1px solid transparent;
 }
 
-.dropdown-list>li:hover{
+.item-lista:hover{
   border-radius: 10px;
   border: 1px solid;
 }

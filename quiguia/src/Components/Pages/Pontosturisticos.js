@@ -1,17 +1,21 @@
 import Corpo01 from '../Padroes/Corpo01';
 import Footer from '../Padroes/Footer';
 import Header from '../Padroes/Header';
+import Corpopadrao from '../Padroes/Corpo01'
 import '../Navbar/style.css';
 
 
-function Index() {
+function  PontosTuristicos() {
 
     return (
         <div>
             
+
+
+            
             <Header/>
-            <Corpo01/>
-            <Footer/>
+            <p>Conteúdo dos Pontos Turisticos</p>
+         
 
 
        
@@ -23,4 +27,4 @@ function Index() {
     )
 }
 
-export default Index;
+export default PontosTuristicos;

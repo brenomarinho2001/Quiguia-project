@@ -1,0 +1,57 @@
+.content{
+
+    display: flex;
+    width: 100%;
+    height: 92vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0px 2px 18px rgba(25, 42, 61, 0.26);
+    border-radius: 20px;
+    width: 300px; 
+    height: 500px; 
+    margin: 50px;
+
+}
+
+.mediaCard{
+    background: url("grupo.png") center center/cover;
+    height: 200px;
+    width: 200x;
+}
+
+.topCard{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard{
+    padding: 30px;
+}
+
+.actionsCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.actions{
+    color: purple;
+    padding: 20px;
+}
+
+.title{
+    padding: 10px;
+}
+
+.grupos{
+    display: flex;
+    justify-content: center;
+ 
+}
+

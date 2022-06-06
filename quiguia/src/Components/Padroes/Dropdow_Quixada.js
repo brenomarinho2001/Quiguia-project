@@ -1,7 +1,7 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
-
-function DropdownUFC({nome}) {
+function DropdownQuixada() {
 
     const [state,setState] = useState(false);
         
@@ -16,15 +16,14 @@ function DropdownUFC({nome}) {
     return(
         <div className="dropdown">
            <div className="dropdown-menu" onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                <li>UFC</li>
+                <li>Quixadá</li>
 
 
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
-                    <li> Grupos</li>
-                    <li> Ônibus</li>
-                    <li> Vivência</li>
-                    <li> Informes</li>
-                    <li> Calendario</li>
+                    <Link to="/PontosTuristicos" ><li className="item-lista">Pontos Turisticos</li></Link>
+                    <Link to="Agendas" ><li className="item-lista">Contatos</li></Link>
+                    <Link to="Agendas" ><li className="item-lista">Eventos</li></Link>
+         
                 </ul>):
                 null}
             </div> 
@@ -38,4 +37,4 @@ function DropdownUFC({nome}) {
 
 
 
-export default DropdownUFC
+export default DropdownQuixada
