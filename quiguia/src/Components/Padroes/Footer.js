@@ -1,7 +1,7 @@
 function Footer(){
 
     return(
-        
+ 
         <div class="footer-info">
         <ul class="footer-info-items">
             <li class="footer-info-item">Legal</li>

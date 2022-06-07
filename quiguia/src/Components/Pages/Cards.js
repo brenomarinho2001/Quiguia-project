@@ -3,17 +3,30 @@ import Footer from '../Padroes/Footer';
 import Header from '../Padroes/Header';
 import Corpopadrao from '../Padroes/Corpo01'
 import '../Navbar/style.css';
+import {StyleSheet, View, Text, ImageBackground} from 'react'
 
 
 function Cards({nome, descricao, links, back, horario,sala}) {
+
+
+
 
     return (      
             <div className='card'>
                 <div className='topCard'>
                     <h2 className='title'>{nome}</h2>
                 </div>
-                <div className='mediaCard'></div>
+
+
+                {/*IMAGEM*/}
+
+                <img src={back} className='mediaCard'></img>
+               
+
+
+
                 <div className='bottomCard'>
+                    
                     <span className='bottomText'><p>{descricao}</p></span>
                     <br></br>
                     <br></br>

@@ -13,28 +13,34 @@
     box-shadow: 0px 2px 18px rgba(25, 42, 61, 0.26);
     border-radius: 20px;
     width: 360px; 
-    height: 560px; 
+    height: 580px; 
     margin: 50px;
+    
 
 }
 
 .mediaCard{
-    background: url("grupo.png") center center/cover;
-    height: 200px;
-    width: 200x;
+     height: auto;
+    width: 100%;
+    padding-bottom: 5px;
 }
 
 .topCard{
-    padding: 5px;
-    padding-top: 5px;
+    padding: 20px;
+    padding-top: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .bottomCard{
-    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .actionsCard{
@@ -52,6 +58,16 @@
     text-decoration: none;
     
 
+}
+
+.bottom{
+    margin-top: 15px;
+}
+
+.actionsCard{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .actions:hover{
@@ -84,3 +100,8 @@
     text-align: justify;
 }
 
+.imagempadrao{
+    width: 10px;
+    height: 10px;
+    size: 10px;
+}

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom";
+import "../Navbar/style.css";
 
 
 function DropdownUFC({nome}) {
@@ -22,7 +23,7 @@ function DropdownUFC({nome}) {
 
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
                     <Link to="/Agendas" ><li className="item-lista">Agendas</li></Link>
-                    <Link to="Agendas" ><li className="item-lista">Ônibus</li></Link>
+                    <li className="item-lista"><a href="https://www.quixada.ufc.br/intinerario-dos-onibus/">Onibus</a></li>
                     <Link to="/Grupos" ><li className="item-lista">Grupos</li></Link>
                     <Link to="Agendas" ><li className="item-lista">Informes</li></Link>
                     <Link to="Agendas" ><li className="item-lista">Calendario</li></Link>

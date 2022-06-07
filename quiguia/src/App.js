@@ -8,6 +8,8 @@ import Principal from './Components/Pages/Principal';
 import Agendas from './Components/Pages/Agendas.js';
 import PontosTuristicos from './Components/Pages/Pontosturisticos';
 import Grupos from './Components/Pages/Grupos';
+import SobreNos from './Components/Pages/SobreNos';
+import Contatos from './Components/Pages/Contatos';
 
 
 function App(){
@@ -35,9 +37,18 @@ return(
       <Routes>
         <Route path="/Grupos" element={<Grupos/>} ></Route>
       </Routes>
+
+      <Routes>
+        <Route path="/Sobrenos" element={<SobreNos/>} ></Route>
+      </Routes>
+
+      <Routes>
+        <Route path="/Contatos" element={<Contatos/>} ></Route>
+      </Routes>
     </BrowserRouter>
- 
+
   
+
   </div>
 )
 }

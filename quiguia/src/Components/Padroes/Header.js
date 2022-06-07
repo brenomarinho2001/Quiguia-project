@@ -17,7 +17,7 @@ function Header() {
                         <DropdownUFC/>
                         <li className="item"><a href="/">Serviços</a></li>
                         <DropdownQuixada/>
-                        <li className="item"><a href="/">Sobre nós</a></li>
+                        <li className="item"><a href="/SobreNos">Sobre nós</a></li>
                     </ul>
             </nav>
             </header>

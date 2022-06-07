@@ -21,7 +21,7 @@ function DropdownQuixada() {
 
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
                     <Link to="/PontosTuristicos" ><li className="item-lista">Pontos Turisticos</li></Link>
-                    <Link to="Agendas" ><li className="item-lista">Contatos</li></Link>
+                    <Link to="/Contatos" ><li className="item-lista">Contatos</li></Link>
                     <Link to="Agendas" ><li className="item-lista">Eventos</li></Link>
          
                 </ul>):
