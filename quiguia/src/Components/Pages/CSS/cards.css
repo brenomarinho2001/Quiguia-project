@@ -15,9 +15,16 @@
     width: 360px; 
     height: 580px; 
     margin: 50px;
-    
+    transition: 0.5s;
 
 }
+
+
+  .card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   
+  }
 
 .mediaCard{
      height: auto;

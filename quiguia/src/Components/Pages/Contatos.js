@@ -9,7 +9,14 @@ import { MdLocalPolice } from 'react-icons/md';
 import { FaTeethOpen } from 'react-icons/fa';
 import { FaHospitalAlt } from 'react-icons/fa';
 
+import upa from './imgscontatos/Upa.png'
+import samu from './imgscontatos/Samu.png'
+import eudasio from './imgscontatos/Eudasio.png'
+import jesusmaria from './imgscontatos/jesusmaria.png'
 
+import delegacia from './imgscontatos/delegaciaR.png'
+import policia from './imgscontatos/Policia.png'
+import bombeiros from './imgscontatos/bombeiros.png'
 
 function Contatos() {
 
@@ -36,6 +43,7 @@ function Contatos() {
                   Quixadá - CE, 63900-000 <br></br>
                   Tel: (88) 2147-1946
                   </p>
+                  <a href='https://www.google.com.br/'><img src={upa} width="80%"></img></a>
               </div>
             </div>
 
@@ -48,6 +56,7 @@ function Contatos() {
                   Quixadá - CE, 63900-056 <br></br>
                   Tel: 88
                   </p>
+                  <a href='https://www.google.com.br/'><img src={samu} width="80%"></img></a>
               </div>
             </div>
 
@@ -60,6 +69,7 @@ function Contatos() {
                   Quixadá - CE, 63902-125 <br></br>
                   Tel: (88) 3412-0681
                   </p>
+                  <a href='https://www.google.com.br/'><img src={jesusmaria} width="80%"></img></a>
               </div>
             </div>
 
@@ -72,6 +82,7 @@ function Contatos() {
                   Quixadá - CE, 63900-000 <br></br>
                   Tel: (88) 3412-0509
                   </p>
+                  <a href='https://www.google.com.br/'><img src={eudasio} width="80%"></img></a>
               </div>
             </div>
           </div>
@@ -90,6 +101,7 @@ function Contatos() {
                   Quixadá - CE, 63900-000 <br></br>
                   Tel: (88) 3445-1047
                   </p>
+                  <a href='https://www.google.com.br/'><img src={delegacia} width="80%"></img></a>
               </div>
             </div>
 
@@ -102,6 +114,7 @@ function Contatos() {
                   Quixadá - CE, 63900-056 <br></br>
                   Tel: (88) 3412-1697
                   </p>
+                  <a href='https://www.google.com.br/'><img src={policia} width="80%"></img></a>
               </div>
             </div>
 
@@ -114,6 +127,7 @@ function Contatos() {
                   Quixadá - CE, 63900-000 <br></br>
                   Tel: (88) 98814-5675
                   </p>
+                  <a href='https://www.google.com.br/'><img src={bombeiros} width="80%"></img></a>
               </div>
             </div>
             
