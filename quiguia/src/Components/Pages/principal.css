@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.conteudoprincipal{
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 15px;
+}
+
+.containerconteudo{
+    width: 80%;
+    height:700px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.containerconteudo h2{
+    font-size: 30px;
+ 
+}
+
+.conteudopromocional{
+    border-style: solid;
+    border-width: medium;
+    width: 70%;
+    height: 80%;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.conteudonoticias{
+    border-style: solid;
+    border-width: medium;
+    width: 70%;
+    height: 11%;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.conteudotexto{
+    height: 100%;
+    width: 30%;
+    border-style: solid;
+    border-width: medium;
+    text-align: center;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
