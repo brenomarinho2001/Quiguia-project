@@ -23,6 +23,7 @@ function DropdownQuixada() {
                     <Link to="/PontosTuristicos" ><li className="item-lista">Pontos Turisticos</li></Link>
                     <Link to="/Contatos" ><li className="item-lista">Contatos</li></Link>
                     <Link to="Agendas" ><li className="item-lista">Eventos</li></Link>
+                    <Link to="/Moradia" ><li className="item-lista">Moradia</li></Link>
          
                 </ul>):
                 null}

@@ -6,7 +6,7 @@ import Header from '../Padroes/Header';
 import './CSS/contatos.css'
 import { MdLocalHospital } from 'react-icons/md';
 import { MdLocalPolice } from 'react-icons/md';
-import { FaTeethOpen } from 'react-icons/fa';
+import { FaTeeth } from 'react-icons/fa';
 import { FaHospitalAlt } from 'react-icons/fa';
 
 import upa from './imgscontatos/Upa.png'
@@ -138,7 +138,7 @@ function Contatos() {
         
         <div class="item2">
           <div class="content2">
-          <FaTeethOpen size="50px"/>
+          <FaTeeth size="50px"/>
             <h2>Dentistas</h2>
             
             <div class="dropdown2">
