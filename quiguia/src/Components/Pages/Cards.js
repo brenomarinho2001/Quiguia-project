@@ -3,7 +3,6 @@ import Footer from '../Padroes/Footer';
 import Header from '../Padroes/Header';
 import Corpopadrao from '../Padroes/Corpo01'
 import '../Navbar/style.css';
-import {StyleSheet, View, Text, ImageBackground} from 'react'
 
 
 function Cards({nome, descricao, links, back, horario,sala}) {

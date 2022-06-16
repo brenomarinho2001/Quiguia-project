@@ -3,14 +3,12 @@ import Footer from '../Padroes/Footer';
 import Header from '../Padroes/Header';
 import Corpopadrao from '../Padroes/Corpo01'
 import '../Navbar/style.css';
-import Carousel from 'nuka-carousel';
+
 
 import img1 from './justdance.png'
 import img2 from './padrao.png'
 
 import './principal.css'
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
 
 
 function Principal() {

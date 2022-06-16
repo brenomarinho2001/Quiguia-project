@@ -10,6 +10,7 @@ import PontosTuristicos from './Components/Pages/Pontosturisticos';
 import Grupos from './Components/Pages/Grupos';
 import SobreNos from './Components/Pages/SobreNos';
 import Contatos from './Components/Pages/Contatos';
+import Moradia from './Components/Pages/Moradia';
 
 
 function App(){
@@ -44,6 +45,10 @@ return(
 
       <Routes>
         <Route path="/Contatos" element={<Contatos/>} ></Route>
+      </Routes>
+
+      <Routes>
+        <Route path="/Moradia" element={<Moradia/>} ></Route>
       </Routes>
     </BrowserRouter>
 
