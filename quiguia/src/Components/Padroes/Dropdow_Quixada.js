@@ -22,7 +22,7 @@ function DropdownQuixada() {
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
                     <Link to="/PontosTuristicos" ><li className="item-lista">Pontos Turisticos</li></Link>
                     <Link to="/Contatos" ><li className="item-lista">Contatos</li></Link>
-                    <Link to="Agendas" ><li className="item-lista">Eventos</li></Link>
+                    <li className="item-lista"><a href="https://www.quixada.ufc.br/intinerario-dos-onibus/">Eventos</a></li>
                     <Link to="/Moradia" ><li className="item-lista">Moradia</li></Link>
          
                 </ul>):
