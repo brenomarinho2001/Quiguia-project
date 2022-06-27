@@ -38,7 +38,6 @@ function Grupos() {
                     <Cards nome={"Grupo de Just Dance"} descricao={"Organizado principalmente pelos alunos de DD, o grupo de Just Dance se reúne na semana promovendo um ambiente de recreação e socialização entre seus participantes. Dispondo de um projetor, os alunos selecionam músicas e vídeos para dançar e aproveitar os horários vagos."} links={"https://www.google.com"} horario={"Quintas das 11:30 ás 13:30"} sala={"Sala 2, bloco 4"} back={Imagens[2]}/>
                     <Cards nome={"English Club"} descricao={"Reunidos em prol de melhorar seu conhecimento sobre o inglês, o english Club existe a partir da reunião de alunos de diversos cursos, tendo atividades que praticamente a escuta e fala utilizando assuntos atuais e principalmente voltados para a linguagem moderna e jovem."} links={"https://www.google.com"} horario={"FALTA PROCURAR"} sala={"FALTA PROCURAR"} back={Imagens[3]}/>
                     <Cards nome={"Celula de Desenho"} descricao={"Gerenciado pela Arusha que promove a criatividade por meio de desenhos."} links={"https://chat.whatsapp.com/J8A3lzO6jndAmsYf6F8aRi"} horario={"Terça-feira - 08:00 • 10:00"} sala={"Bloco 3 Sala de Desenho"} back={Imagens[4]}/>
-
                     <Footer></Footer>
                 </div>
 
