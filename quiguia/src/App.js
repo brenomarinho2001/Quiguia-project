@@ -6,11 +6,13 @@ import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from 'rea
 import Index from './Components/Navbar/Index';
 import Principal from './Components/Pages/Principal';
 import Agendas from './Components/Pages/Agendas.js';
-import PontosTuristicos from './Components/Pages/Pontosturisticos';
+import PontosTuristicos from './Components/Pages/PontosT';
 import Grupos from './Components/Pages/Grupos';
 import SobreNos from './Components/Pages/SobreNos';
 import Contatos from './Components/Pages/Contatos';
 import Moradia from './Components/Pages/Moradia';
+import PontosT from './Components/Pages/PontosT';
+import Informes from './Components/Pages/Informes';
 
 
 function App(){
@@ -23,32 +25,34 @@ return(
 
       <Routes>
         <Route exact path="/" element={<Index />} ></Route>
-      </Routes>
-      <Routes>
+
+
         <Route path="/principal" element={<Principal />} ></Route>
-      </Routes>
-      <Routes>
+
+ 
         <Route path="/Agendas" element={<Agendas />} ></Route>
-      </Routes>
 
-      <Routes>
-        <Route path="/PontosTuristicos" element={<PontosTuristicos/>} ></Route>
-      </Routes>
 
-      <Routes>
+
+        <Route path="/PontosTuristicos" element={<PontosT/>} ></Route>
+
+
+     
         <Route path="/Grupos" element={<Grupos/>} ></Route>
-      </Routes>
+   
 
-      <Routes>
+      
         <Route path="/Sobrenos" element={<SobreNos/>} ></Route>
-      </Routes>
+   
 
-      <Routes>
+  
         <Route path="/Contatos" element={<Contatos/>} ></Route>
-      </Routes>
+    
 
-      <Routes>
+
         <Route path="/Moradia" element={<Moradia/>} ></Route>
+
+        <Route path="/informes" element={<Informes/>} ></Route>
       </Routes>
     </BrowserRouter>
 

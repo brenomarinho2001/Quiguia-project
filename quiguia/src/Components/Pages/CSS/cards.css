@@ -1,3 +1,6 @@
+*{
+    
+}
 .content{
 
     display: flex;
@@ -27,12 +30,13 @@
   }
 
 .mediaCard{
-     height: auto;
-    width: 100%;
+     height: 245px;
+    width: 360px;
     padding-bottom: 5px;
 }
 
 .topCard{
+    height: 80px;
     padding: 20px;
     padding-top: 3px;
     display: flex;
@@ -59,7 +63,7 @@
 
 .actions{
     color: black;
-    padding: 20px;
+    padding: 5px;
     padding-bottom: 20px;
     margin-top: 10px;
     text-decoration: none;
@@ -92,7 +96,7 @@
 .title{
     padding: 10px;
     text-align: center;
-    text-transform: uppercase;
+  
     
     
 }

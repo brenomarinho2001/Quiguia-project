@@ -5,7 +5,7 @@ import Corpopadrao from '../Padroes/Corpo01'
 import '../Navbar/style.css';
 
 
-function Cards({nome, descricao, links, back, horario,sala}) {
+function Cards({nome, descricao, links, back, horario,sala,mensagemclick}) {
 
 
 
@@ -27,14 +27,13 @@ function Cards({nome, descricao, links, back, horario,sala}) {
                 <div className='bottomCard'>
                     
                     <span className='bottomText'><p>{descricao}</p></span>
-                    <br></br>
-                    <br></br>
+
                     
                     <span className='bottom'><b>Horário: </b>{horario}</span>
-                    <br></br>
+
                     <span className='bottom'><b>Sala: </b> {sala}</span>
                     <div className='actionsCard'>
-                        <a className='actions' href={links}><p className='entrar'>Clique aqui para entrar no grupo!</p></a>
+                        <a className='actions' href={links}><p className='entrar'>{mensagemclick}</p></a>
                     </div>
                 </div>
             </div>

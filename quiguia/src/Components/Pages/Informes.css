@@ -1,0 +1,27 @@
+.menuLateral {
+  display: flex;
+  flex-direction: column;
+  background-color: #440099;
+  width: 200px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bloco {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.bloco:hover {
+    border: white solid 1px;
+}
+.bloco .nome {
+  color: white;
+  font-size: 15px;
+}
