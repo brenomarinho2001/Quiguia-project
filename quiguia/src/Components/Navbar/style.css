@@ -61,6 +61,17 @@ nav{
     background-blend-mode: color;
 }
 
+#showcase2{
+    height: 250vh;
+    width: 100%;
+    display: flex;
+
+    color: white;
+    background: url('../imgs/background.png') center center/cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: color;
+}
+
 #showcase .showcase-container{
     display: flex;
     flex-direction: column;
@@ -165,3 +176,39 @@ nav{
      width: 100%;
      height: 100%;
   }
+
+  .container3 p{
+    margin-bottom: 25px;
+    
+
+  }
+
+  .container3 h2{
+    margin-bottom: 50px;
+  
+
+  }
+
+  .imgmapa img{
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: 0;    
+  }
+
+
+.textoquiguia{
+    padding: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.showcase-container span{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.slick-arrowslick-next{
+    color: black;
+    background-color: red;
+}

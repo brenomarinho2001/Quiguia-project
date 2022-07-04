@@ -29,9 +29,9 @@ function Cards({nome, descricao, links, back, horario,sala,mensagemclick}) {
                     <span className='bottomText'><p>{descricao}</p></span>
 
                     
-                    <span className='bottom'><b>Horário: </b>{horario}</span>
-
-                    <span className='bottom'><b>Sala: </b> {sala}</span>
+                    <span className='bottom'><b>{horario}</b></span>
+    
+                    <span className='bottom'><b><br></br>{sala}</b> </span>
                     <div className='actionsCard'>
                         <a className='actions' href={links}><p className='entrar'>{mensagemclick}</p></a>
                     </div>

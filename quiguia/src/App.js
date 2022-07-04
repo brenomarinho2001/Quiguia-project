@@ -13,6 +13,8 @@ import Contatos from './Components/Pages/Contatos';
 import Moradia from './Components/Pages/Moradia';
 import PontosT from './Components/Pages/PontosT';
 import Informes from './Components/Pages/Informes';
+import { Relatos } from './Components/Pages/Relatos';
+import Servicos from './Components/Pages/Servicos';
 
 
 function App(){
@@ -47,12 +49,16 @@ return(
 
   
         <Route path="/Contatos" element={<Contatos/>} ></Route>
+
+        <Route path="/Servicos" element={<Servicos/>} ></Route>
     
 
 
         <Route path="/Moradia" element={<Moradia/>} ></Route>
 
         <Route path="/informes" element={<Informes/>} ></Route>
+
+        <Route path="/relatos" element={<Relatos/>} ></Route>
       </Routes>
     </BrowserRouter>
 

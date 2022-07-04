@@ -16,13 +16,12 @@ function DropdownQuixada() {
     return(
         <div className="dropdown">
            <div className="dropdown-menu" onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                <li>Quixadá</li>
+                <li className="item">Quixadá</li>
 
 
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
                     <Link to="/PontosTuristicos" ><li className="item-lista">Pontos Turisticos</li></Link>
                     <Link to="/Contatos" ><li className="item-lista">Contatos</li></Link>
-                    <li className="item-lista"><a href="https://www.quixada.ufc.br/intinerario-dos-onibus/">Eventos</a></li>
                     <Link to="/Moradia" ><li className="item-lista">Moradia</li></Link>
          
                 </ul>):

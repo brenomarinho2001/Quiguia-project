@@ -18,15 +18,17 @@ function DropdownUFC({nome}) {
     return(
         <div className="dropdown">
            <div className="dropdown-menu" onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
-                <li>UFC</li>
+                <li className="item">UFC</li>
 
 
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
                     <Link to="/Agendas" ><li className="item-lista">Agendas</li></Link>
                     <li className="item-lista"><a href="https://www.quixada.ufc.br/intinerario-dos-onibus/">Onibus</a></li>
                     <Link to="/Grupos" ><li className="item-lista">Grupos</li></Link>
-                    <Link to="Agendas" ><li className="item-lista">Informes</li></Link>
-                    <Link to="Agendas" ><li className="item-lista">Calendario</li></Link>
+                    <li className="item-lista"><a href="https://www.quixada.ufc.br/category/destaque/">Informes</a></li>
+                    <li className="item-lista"><a href="https://www.ufc.br/calendario-universitario/2022">Calendario</a></li>
+                    <li className="item-lista"><a href="https://www.quixada.ufc.br/evento">Eventos</a></li>
+                    <Link to="/relatos" ><li className="item-lista">Relatos</li></Link>
                 </ul>):
                 null}
             </div> 

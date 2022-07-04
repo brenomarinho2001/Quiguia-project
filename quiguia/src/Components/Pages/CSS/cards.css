@@ -30,8 +30,8 @@
   }
 
 .mediaCard{
-     height: 245px;
-    width: 360px;
+     height: 100;
+    width: 100%;
     padding-bottom: 5px;
 }
 
