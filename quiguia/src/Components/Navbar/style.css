@@ -20,7 +20,11 @@ a {
 }
 
 li a:hover{
-    color: #ff8e01;
+    
+}
+
+.showcase2{
+    background-color: rgb(230, 228, 228);
 }
 
 .logo {
@@ -37,8 +41,16 @@ nav{
 }
 
 .nav-list{
-    list-style: none;
+    
     display: flex;
+    list-style: none;
+
+}
+
+.item a{
+    width: 160px;
+    height: 22.5px;
+    text-align: center;
 }
 
 .nav-list {
@@ -66,7 +78,7 @@ nav{
     width: 100%;
     display: flex;
 
-    color: white;
+    color: rgb(255, 255, 255);
     background: url('../imgs/background.png') center center/cover;
     background-color: rgba(0, 0, 0, 0.9);
     background-blend-mode: color;
@@ -121,7 +133,7 @@ nav{
     background: #1DB954;
     color: white;
     text-transform: uppercase;
-    padding: 15px 60px;
+    padding: 20px 150px;
     border: none;
     border-radius: 30px;
     letter-spacing: 1px;
@@ -179,7 +191,8 @@ nav{
 
   .container3 p{
     margin-bottom: 25px;
-    
+    font-size: 30px;
+    text-align: justify;
 
   }
 
@@ -202,11 +215,34 @@ nav{
     text-align: justify;
 }
 
-.showcase-container span{
-    font-size: 100px;
+.showcase-container span:first-child{
+    font-size: 70px;
     text-transform: uppercase;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    background-color: #440099;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px;
 }
+
+.showcase-container span:nth-child(2){
+    font-size: 70px;
+   
+
+    padding: 40px;
+}
+
+.showcase-container p{
+    font-size: 0px;
+    
+    border-radius: 15px;
+
+ 
+    padding: 20px;
+}
+
+
 
 .slick-arrowslick-next{
     color: black;

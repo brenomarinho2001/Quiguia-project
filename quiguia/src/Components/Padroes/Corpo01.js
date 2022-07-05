@@ -8,9 +8,12 @@ function Corpo01() {
             <div class="showcase-container">
                 <MovingText type="typewriter"
                         dataText={[
-                        "Mais que um Guia de Quixadá.",
+                        "Cheguei e agora???",
+                        'Não se preocupe o QuiGuia vai ajudar você!',
                         'Um guia poderoso de Quixadá',
+                        'Com diversas informações importantes'
                         ]} />
+                    
                 
                 <MovingText
                     type="pulse"
@@ -21,7 +24,7 @@ function Corpo01() {
                     iteration="infinite"
                     fade="fadeOutToRight"
                     fillMode="none">
-                    <p className='textoquiguia'>informações importantes de Quixadá.</p>
+                    <p className='textoquiguia'></p>
                     </MovingText>
 
                 <Link to="/principal" class="btn-primary2" ><button class="btn-primary">Acessar</button></Link>

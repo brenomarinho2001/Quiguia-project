@@ -10,6 +10,8 @@ function Servicos(){
             <div className="container2">
             <div className="container3">
 
+            <h2 className="titulorelato2">Locais para Alimentação em Quixadá</h2>                
+
         <div className="container4">
             <h2>André Lanches</h2>
 

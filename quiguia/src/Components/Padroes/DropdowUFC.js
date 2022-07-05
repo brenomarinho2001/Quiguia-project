@@ -22,7 +22,6 @@ function DropdownUFC({nome}) {
 
 
                 {state ?(<ul className="dropdown-list" onMouseEnter={showDropdown}>
-                    <Link to="/Agendas" ><li className="item-lista">Agendas</li></Link>
                     <li className="item-lista"><a href="https://www.quixada.ufc.br/intinerario-dos-onibus/">Onibus</a></li>
                     <Link to="/Grupos" ><li className="item-lista">Grupos</li></Link>
                     <li className="item-lista"><a href="https://www.quixada.ufc.br/category/destaque/">Informes</a></li>

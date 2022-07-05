@@ -15,9 +15,8 @@ function Header() {
                     
                     <ul className="nav-list">
                         <DropdownUFC/>
-                        <li className="item"><a href="/servicos">Serviços</a></li>
                         <DropdownQuixada/>
-                        <li className="item"><a href="/SobreNos">Sobre nós</a></li>
+                        <li className="item"><a href="/SobreNos">Sobre </a></li>
                     </ul>
             </nav>
             </header>
